@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif; 
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* banner section  */
+.header{
+
+
+}
+.banner{
+    background-image: url('../Assests/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+    max-width: 100%;
+
+}
+.banner-content {
+    max-width: 525px;
+    float: right;
+    margin: 216px 230px 15px 0px;
+    margin-right: 56px;
+}
+.banner-title{
+    color:  #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 55px;
+    margin-bottom: 24px;
+}
+.common-description{
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.banner-button {
+    padding: 21px 25px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    text-align: right;
+    margin-left: 374px;
+}
+
+/* hero section  */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 140px 222px 50px 229px;
+    gap: 134px;
+}
+.left-hero {
+    width: 934px;
+    position: relative;
+    z-index:5;
+
+}
+.common-title{
+    color: #151414;
+    font-size: 40px;
+}
+.hero-decription{
+    float: left;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
