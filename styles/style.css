@@ -34,6 +34,7 @@ li{
     float: right;
     margin: 216px 230px 15px 0px;
     margin-right: 56px;
+    padding-right: 120px;
 }
 .banner-title{
     color:  #151414;
@@ -51,7 +52,7 @@ li{
     line-height: 26px;
     margin-bottom: 32px;
 }
-.banner-button {
+.cmn-button{
     padding: 21px 25px;
     border-radius: 5px;
     background: #F15B22;
@@ -62,7 +63,7 @@ li{
     cursor: pointer;
     display: block;
     text-align: right;
-    margin-left: 374px;
+    margin-left: 255px;
 }
 
 /* hero section  */
@@ -88,3 +89,71 @@ li{
     margin-bottom: 10px;
     margin-top: 15px;
 }
+
+/* my plan box section  */
+.my-plan{
+
+}
+.plan-title{
+
+}
+.my-plan-box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    gap:30px;
+    padding: 0px 120px;
+}
+.plan-title{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #151414;
+    margin-top: 114px;
+}
+.plan-cmn-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+/* my plan banner section  */
+.my-plan-banner{
+
+}
+.banner-image {
+    background-image: url('../Assests/images/watch.png');
+    opacity: 1s;
+    background-repeat: no-repeat;
+    max-height: 300px;
+    background-position: center;
+    margin: 130px 111px;
+    max-width: 100%;
+}
+.banner-opacity{
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    position: relative;
+}
+.banner-cotent{
+    text-align: left;
+    position: absolute;
+}
+.my-plan-title {
+    margin: 55px 617px 24px 64px;
+    text-align: left;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+}
+#planbtn {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    margin-left: 62px;
+}
+
+/* Footer Section  */
